@@ -1,0 +1,1198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ScamShield – Online Scam Awareness Platform</title>
+  <meta name="description" content="ScamShield educates users about common online scams, UPI frauds, phishing, and fake investments. Stay alert, stay safe, and learn how to report cybercrimes in India.">
+  <meta name="keywords" content="ScamShield, online scam awareness, cybercrime helpline 1930, UPI scams, phishing, cybersecurity India">
+
+  <!-- Google Fonts: Outfit & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Top Emergency Alert Bar -->
+  <aside class="emergency-top-bar" aria-label="Emergency Cyber Helpline">
+    <div class="container emergency-bar-inner">
+      <div class="emergency-badge">
+        <span class="pulse-dot"></span>
+        <i class="fa-solid fa-triangle-exclamation"></i>
+        <strong>EMERGENCY FRAUD ALERT:</strong> Just scammed or lost money? Report within the Golden Hour!
+      </div>
+      <div class="emergency-actions">
+        <a href="tel:1930" class="btn-emergency-call" title="Call National Cybercrime Helpline 1930">
+          <i class="fa-solid fa-phone-volume"></i> Call 1930 (Toll Free)
+        </a>
+        <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" class="btn-emergency-link">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i> cybercrime.gov.in
+        </a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Sticky Header / Navbar -->
+  <header class="site-header" id="header">
+    <nav class="navbar container" aria-label="Main Navigation">
+      <a href="#home" class="brand-logo" aria-label="ScamShield Home">
+        <div class="logo-shield">
+          <i class="fa-solid fa-shield-halved"></i>
+          <span class="shield-glow"></span>
+        </div>
+        <div class="brand-text">
+          <span class="brand-name">Scam<span class="highlight">Shield</span></span>
+          <span class="brand-tagline">Cyber Awareness Initiative</span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav Items -->
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active"><i class="fa-solid fa-house"></i> Home</a></li>
+        <li><a href="#scams" class="nav-link"><i class="fa-solid fa-bug"></i> Scam Types</a></li>
+        <li><a href="#quiz" class="nav-link"><i class="fa-solid fa-graduation-cap"></i> Awareness Quiz</a></li>
+        <li><a href="#tips" class="nav-link"><i class="fa-solid fa-lightbulb"></i> Safety Tips</a></li>
+        <li><a href="#report" class="nav-link"><i class="fa-solid fa-bullhorn"></i> Report Scam</a></li>
+        <li><a href="#emergency" class="nav-link nav-link-emergency"><i class="fa-solid fa-life-ring"></i> Emergency 1930</a></li>
+      </ul>
+
+      <!-- Right Action CTA -->
+      <div class="nav-right">
+        <a href="#quiz" class="btn btn-outline-cyan nav-cta-btn">
+          <i class="fa-solid fa-circle-check"></i> Test Your Safety
+        </a>
+        <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- 1. Home / Hero Section -->
+    <section class="hero-section" id="home">
+      <div class="cyber-grid-background" aria-hidden="true"></div>
+      <div class="container hero-content">
+        <div class="hero-text">
+          <div class="cyber-pill">
+            <span class="glow-indicator"></span>
+            <span>Protecting Citizens in the Digital Era</span>
+          </div>
+
+          <h1 class="hero-title">
+            Stay Alert. <span class="gradient-text">Stay Safe.</span><br>
+            Stop Online Scams.
+          </h1>
+
+          <p class="hero-description">
+            Online fraudsters are using sophisticated social engineering, fake UPI requests, impersonation, and fraudulent job offers to drain bank accounts. 
+            <strong>ScamShield</strong> equips you with knowledge, real-world case studies, and safety protocols to identify scams before it's too late.
+          </p>
+
+          <div class="hero-cta-group">
+            <a href="#scams" class="btn btn-primary btn-lg">
+              <i class="fa-solid fa-shield-virus"></i> Explore Scam Types
+            </a>
+            <a href="#quiz" class="btn btn-secondary btn-lg">
+              <i class="fa-solid fa-play"></i> Take Safety Quiz
+            </a>
+            <a href="#emergency" class="btn btn-danger-soft btn-lg">
+              <i class="fa-solid fa-phone"></i> Helpline 1930
+            </a>
+          </div>
+
+          <!-- Quick Trust Badges -->
+          <div class="hero-quick-badges">
+            <div class="quick-badge-item">
+              <i class="fa-solid fa-lock text-cyan"></i>
+              <span>100% Free & Educational</span>
+            </div>
+            <div class="quick-badge-item">
+              <i class="fa-solid fa-user-shield text-green"></i>
+              <span>No Banking Info Required</span>
+            </div>
+            <div class="quick-badge-item">
+              <i class="fa-solid fa-landmark text-amber"></i>
+              <span>Aligned with I4C (MHA) Guidelines</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="security-radar-card">
+            <div class="radar-header">
+              <div class="traffic-lights">
+                <span class="light red"></span>
+                <span class="light yellow"></span>
+                <span class="light green"></span>
+              </div>
+              <span class="radar-title"><i class="fa-solid fa-terminal"></i> ScamShield Threat Monitor</span>
+              <span class="status-live">LIVE</span>
+            </div>
+            <div class="radar-body">
+              <div class="threat-alert-box">
+                <div class="threat-icon"><i class="fa-solid fa-triangle-exclamation"></i></div>
+                <div class="threat-details">
+                  <span class="threat-tag">HIGH FREQUENCY THREAT</span>
+                  <h4>Fake APK & "Electricity Bill" WhatsApp Scams</h4>
+                  <p>Fraudsters sending fake APKs to remotely mirror your phone and capture OTPs.</p>
+                </div>
+              </div>
+
+              <div class="threat-metrics-grid">
+                <div class="metric-card">
+                  <span class="metric-label">National Helpline</span>
+                  <span class="metric-value text-red">1930</span>
+                </div>
+                <div class="metric-card">
+                  <span class="metric-label">Golden Window</span>
+                  <span class="metric-value text-amber">First 2-3 Hrs</span>
+                </div>
+                <div class="metric-card">
+                  <span class="metric-label">Fund Freeze Rate</span>
+                  <span class="metric-value text-cyan">&gt; 70%</span>
+                </div>
+              </div>
+
+              <div class="scam-tip-ticker">
+                <i class="fa-solid fa-bolt text-amber"></i>
+                <strong>Crucial Rule:</strong> Entering your UPI PIN is <em>ONLY</em> for sending money, never for receiving!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real-Time Online Scam Statistics -->
+      <div class="container stats-container">
+        <div class="stats-wrapper">
+          <div class="stat-card" data-stat-target="1750">
+            <div class="stat-icon-wrapper text-cyan">
+              <i class="fa-solid fa-vault"></i>
+            </div>
+            <div class="stat-info">
+              <h3 class="stat-number"><span class="counter" data-target="1750">0</span>+ Cr</h3>
+              <p class="stat-label">Saved by I4C 1930 Helpline</p>
+              <span class="stat-sub">Funds frozen in scammer accounts</span>
+            </div>
+          </div>
+
+          <div class="stat-card" data-stat-target="12">
+            <div class="stat-icon-wrapper text-amber">
+              <i class="fa-solid fa-file-shield"></i>
+            </div>
+            <div class="stat-info">
+              <h3 class="stat-number"><span class="counter" data-target="12">0</span> Lakh+</h3>
+              <p class="stat-label">Cyber Complaints Annual</p>
+              <span class="stat-sub">Reported on cybercrime.gov.in</span>
+            </div>
+          </div>
+
+          <div class="stat-card" data-stat-target="78">
+            <div class="stat-icon-wrapper text-red">
+              <i class="fa-solid fa-qrcode"></i>
+            </div>
+            <div class="stat-info">
+              <h3 class="stat-number"><span class="counter" data-target="78">0</span>%</h3>
+              <p class="stat-label">Involve Financial Fraud</p>
+              <span class="stat-sub">UPI, fake QR, credit card & OTPs</span>
+            </div>
+          </div>
+
+          <div class="stat-card" data-stat-target="90">
+            <div class="stat-icon-wrapper text-green">
+              <i class="fa-solid fa-shield-heart"></i>
+            </div>
+            <div class="stat-info">
+              <h3 class="stat-number"><span class="counter" data-target="90">0</span>%</h3>
+              <p class="stat-label">Preventable With Awareness</p>
+              <span class="stat-sub">Simple digital hygiene saves funds</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2. Types of Online Scams Section -->
+    <section class="section scams-section" id="scams">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-solid fa-mask"></i> Know Your Adversaries</span>
+          <h2 class="section-title">Common Online Scams Decoded</h2>
+          <p class="section-description">
+            Fraudsters exploit human trust, urgency, fear, and greed. Understand the anatomy of the 8 most widespread digital frauds in India and worldwide.
+          </p>
+
+          <!-- Category filter tabs -->
+          <div class="scam-filters" role="tablist">
+            <button class="filter-btn active" data-filter="all">All Scams (8)</button>
+            <button class="filter-btn" data-filter="payment">Payment & Banking</button>
+            <button class="filter-btn" data-filter="impersonation">Impersonation & Social</button>
+            <button class="filter-btn" data-filter="opportunity">Jobs & Investments</button>
+          </div>
+        </div>
+
+        <div class="scams-grid" id="scamsGrid">
+          <!-- Scam 1: Phishing Emails -->
+          <article class="scam-card" data-category="impersonation">
+            <div class="scam-badge-strip scam-high-risk">
+              <i class="fa-solid fa-triangle-exclamation"></i> High Risk
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-blue">
+                <i class="fa-solid fa-envelope-open-text"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">Deceptive Messaging</span>
+                <h3 class="scam-title">Phishing Emails & SMS</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Fraudulent emails, SMS (Smishing), or WhatsApp messages pretending to be from your bank, Income Tax Dept, or courier services (India Post, FedEx) requesting immediate link clicks.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                "Dear Customer, your SBI/HDFC net banking access is blocked due to pending KYC. Click http://bit.ly/sbi-kyc-update immediately to avoid a ₹5,000 penalty."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Urgent threats: "Account suspended in 24 hours"</li>
+                <li>Shortened links (bit.ly, tinyurl) or misspelled domains</li>
+                <li>Asks for password, ATM PIN, or card CVV</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              Never click links in SMS. Always open your bank's verified official app or type the official URL manually.
+            </div>
+          </article>
+
+          <!-- Scam 2: UPI Payment Scams -->
+          <article class="scam-card" data-category="payment">
+            <div class="scam-badge-strip scam-critical-risk">
+              <i class="fa-solid fa-radiation"></i> Most Frequent
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-cyan">
+                <i class="fa-solid fa-qrcode"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">UPI & Wallets</span>
+                <h3 class="scam-title">UPI Payment Scams</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Scammers trick victims into scanning QR codes or approving "Collect" requests under the false pretense of sending advance payments for goods, refunds, or OLX sales.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                An OLX buyer says: "I want your old sofa for ₹10,000. I have sent a QR code on WhatsApp. Scan it and enter your 6-digit UPI PIN to receive the money in your account."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Claiming you need to enter UPI PIN to <em>receive</em> money</li>
+                <li>Fake screenshots of "Pending payment received"</li>
+                <li>Pushing you to accept a "Collect Money" notification</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              Golden Rule: <strong>UPI PIN is ONLY required to DEBIT money from your account.</strong> You never enter a PIN to receive funds.
+            </div>
+          </article>
+
+          <!-- Scam 3: OTP Fraud -->
+          <article class="scam-card" data-category="payment">
+            <div class="scam-badge-strip scam-critical-risk">
+              <i class="fa-solid fa-key"></i> Critical Risk
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-amber">
+                <i class="fa-solid fa-mobile-screen-button"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">Authentication Breach</span>
+                <h3 class="scam-title">OTP & SIM Swap Fraud</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Scammers pose as bank customer support, telecom executives (5G upgrade), or power department officials asking you to share the OTP sent to your phone or install screen-sharing apps.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                "Hello, I am calling from Airtel/Jio backend. Your 4G SIM will be deactivated tonight. Read out the 6-digit upgrade code sent to your phone to switch to 5G uninterrupted."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Caller requesting OTP under any emergency justification</li>
+                <li>Asking to install apps like AnyDesk, TeamViewer, or RustDesk</li>
+                <li>Instruction to send an SMS like "SIMREQ &lt;Number&gt;" to 121</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              No genuine bank or telecom employee will ever ask for your OTP. Never share screen access with unknown callers.
+            </div>
+          </article>
+
+          <!-- Scam 4: Fake Job Offers -->
+          <article class="scam-card" data-category="opportunity">
+            <div class="scam-badge-strip scam-high-risk">
+              <i class="fa-solid fa-briefcase"></i> High Risk
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-purple">
+                <i class="fa-solid fa-user-tie"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">Employment Fraud</span>
+                <h3 class="scam-title">Fake Job Offers & Task Scams</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Luring college students and job seekers with "Part-Time Work From Home" promises: like YouTube videos, rate Google Maps hotels, or do data entry for ₹3,000–₹5,000 daily earnings.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                "Earn ₹3,500 daily by simply subscribing to 5 YouTube channels. Initial ₹300 paid to earn trust, followed by Telegram VIP groups asking ₹10,000 to unlock 'prepaid tasks'."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Recruitment conducted entirely over WhatsApp or Telegram</li>
+                <li>Requires paying a "security deposit", "registration fee", or "task fee"</li>
+                <li>Unrealistically high hourly wages for zero qualification</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              Legitimate companies pay you for your work; they never ask you to pay them money to get or continue a job.
+            </div>
+          </article>
+
+          <!-- Scam 5: Online Shopping Scams -->
+          <article class="scam-card" data-category="payment">
+            <div class="scam-badge-strip scam-medium-risk">
+              <i class="fa-solid fa-cart-shopping"></i> Rampant
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-emerald">
+                <i class="fa-solid fa-bag-shopping"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">E-Commerce</span>
+                <h3 class="scam-title">Online Shopping Scams</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Counterfeit shopping websites advertised heavily on Instagram and Facebook offering branded footwear, gadgets, or apparel at 80% to 90% discount, delivering nothing or empty boxes.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                "Festive Grand Sale! iPhone 15 Pro for only ₹19,999. First 50 customers only. Pay now via UPI/GPay. Cash on Delivery unavailable due to clearance stock policy."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Absence of physical address, GST number, or customer care helpline</li>
+                <li>Prepaid-only checkout with disabled Cash on Delivery</li>
+                <li>Comments and reviews turned off or disabled on social media ads</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              Always inspect domain registration age, prefer trusted e-commerce platforms, and beware of deals that seem impossibly cheap.
+            </div>
+          </article>
+
+          <!-- Scam 6: Social Media Scams -->
+          <article class="scam-card" data-category="impersonation">
+            <div class="scam-badge-strip scam-high-risk">
+              <i class="fa-solid fa-users"></i> High Risk
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-pink">
+                <i class="fa-solid fa-share-nodes"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">Social Engineering</span>
+                <h3 class="scam-title">Social Media & Impersonation</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Cloned accounts or compromised profiles of your friends, relatives, or colleagues sending urgent distress messages begging for emergency money transfers or hospital fees.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                An Instagram DM from your school friend's exact name & photo: "Bro, my mother is in ICU and UPI is locked on my phone. Can you GPay ₹15,000 to this hospital medical store QR right now?"
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Sudden financial distress request via direct messages</li>
+                <li>Excuses why they cannot speak via voice or video call</li>
+                <li>Account was created recently with few followers</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              Always disconnect and place a direct phone or video call to that person on their verified mobile number before transferring money.
+            </div>
+          </article>
+
+          <!-- Scam 7: Lottery & Prize Scams -->
+          <article class="scam-card" data-category="opportunity">
+            <div class="scam-badge-strip scam-medium-risk">
+              <i class="fa-solid fa-gift"></i> Common
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-gold">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">Prize Fraud</span>
+                <h3 class="scam-title">Lottery & Lucky Draw Scams</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Messages or WhatsApp voice recordings claiming your mobile number or email won ₹25 Lakhs to ₹1 Crore in KBC (Kaun Banega Crorepati) or luxury car lucky draws.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                "KBC Head Office WhatsApp Notice: Congratulations! Your SIM has won ₹25,00,000. Contact Manager Rana Pratap. Deposit ₹12,500 government GST clearance fee to release funds."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Winning a lottery for a contest you never bought tickets for</li>
+                <li>Demands to pay "processing fee", "tax", or "custom clearance" upfront</li>
+                <li>Fake letterheads with mismatched government logos</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              You can never win a contest you never participated in. Genuine prizes deduct taxes at source and never demand advance fees.
+            </div>
+          </article>
+
+          <!-- Scam 8: Fake Investment Scams -->
+          <article class="scam-card" data-category="opportunity">
+            <div class="scam-badge-strip scam-critical-risk">
+              <i class="fa-solid fa-chart-line"></i> Massive Losses
+            </div>
+            <div class="scam-card-header">
+              <div class="scam-icon-box bg-danger">
+                <i class="fa-solid fa-sack-dollar"></i>
+              </div>
+              <div>
+                <span class="scam-category-tag">Financial Scam</span>
+                <h3 class="scam-title">Fake Investment & Stock Tips</h3>
+              </div>
+            </div>
+            <p class="scam-summary">
+              Exclusive WhatsApp & Telegram groups claiming to offer SEBI-registered institutional stock picks, pre-IPO allotment shares, or crypto bots promising 200% to 500% guaranteed returns.
+            </p>
+            <div class="scam-example-box">
+              <span class="example-label"><i class="fa-solid fa-bullseye"></i> Realistic Scenario:</span>
+              <p class="example-quote">
+                "Join our VIP Institutional Trading Desk. Guaranteed 20% weekly returns on pre-IPO allotment. Download our customized trading APK and transfer investment to our partner current accounts."
+              </p>
+            </div>
+            <div class="scam-red-flags">
+              <h4><i class="fa-solid fa-flag text-red"></i> Red Flags:</h4>
+              <ul>
+                <li>Words like "100% Guaranteed Profit" or "Zero Risk"</li>
+                <li>Transferring funds to individual savings accounts rather than registered brokers</li>
+                <li>Fake app shows huge fake balances, but withdrawals are blocked demanding "withdrawal tax"</li>
+              </ul>
+            </div>
+            <div class="scam-defense">
+              <strong><i class="fa-solid fa-shield-check text-green"></i> How to Protect:</strong>
+              Invest only through SEBI-registered brokers. Never trade via third-party APKs or Telegram groups.
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3. Scam Awareness Quiz Section -->
+    <section class="section quiz-section" id="quiz">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-solid fa-brain"></i> Interactive Test</span>
+          <h2 class="section-title">Scam Awareness Safety Quiz</h2>
+          <p class="section-description">
+            Test your digital instincts with 10 real-world cyber fraud scenarios. Can you outsmart the fraudsters and protect your finances?
+          </p>
+        </div>
+
+        <div class="quiz-container-card" id="quizContainer">
+          <!-- Quiz Start Screen -->
+          <div class="quiz-intro-screen" id="quizIntro">
+            <div class="quiz-intro-icon">
+              <i class="fa-solid fa-user-shield"></i>
+            </div>
+            <h3>Ready to Measure Your Cyber Resilience?</h3>
+            <p>10 Multiple-Choice Questions &bull; Real-life scenarios &bull; Instant detailed feedback</p>
+            <div class="quiz-rules-list">
+              <div class="rule-item"><i class="fa-solid fa-check text-green"></i> 10 practical cyber scam scenarios</div>
+              <div class="rule-item"><i class="fa-solid fa-check text-green"></i> Explanations provided for every question</div>
+              <div class="rule-item"><i class="fa-solid fa-check text-green"></i> Receive your Cyber Safety Score & Defender Badge</div>
+            </div>
+            <button class="btn btn-primary btn-lg" id="btnStartQuiz">
+              <i class="fa-solid fa-play"></i> Start Safety Quiz Now
+            </button>
+          </div>
+
+          <!-- Quiz Active Screen (Hidden Initially) -->
+          <div class="quiz-active-screen hidden" id="quizActive">
+            <div class="quiz-header-bar">
+              <div class="quiz-progress-wrapper">
+                <div class="quiz-progress-text">
+                  <span>Question <strong id="currentQuestionNum">1</strong> of <strong id="totalQuestionsNum">10</strong></span>
+                  <span class="score-badge" id="liveScoreBadge"><i class="fa-solid fa-award"></i> Score: <span id="currentScore">0</span></span>
+                </div>
+                <div class="progress-bar-track">
+                  <div class="progress-bar-fill" id="progressBarFill" style="width: 10%;"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Question Card -->
+            <div class="quiz-question-box">
+              <div class="question-category" id="questionCategory">UPI Payment Scams</div>
+              <h3 class="question-text" id="questionText">Loading question...</h3>
+              <div class="options-grid" id="optionsGrid">
+                <!-- Dynamically populated via JS -->
+              </div>
+              
+              <!-- Explanation Feedback Card -->
+              <div class="quiz-feedback-box hidden" id="feedbackBox">
+                <div class="feedback-header">
+                  <span id="feedbackIcon"></span>
+                  <h4 id="feedbackTitle">Correct!</h4>
+                </div>
+                <p id="feedbackExplanation">Explanation text will appear here.</p>
+                <button class="btn btn-primary" id="btnNextQuestion">
+                  Next Question <i class="fa-solid fa-arrow-right"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quiz Results Screen (Hidden Initially) -->
+          <div class="quiz-results-screen hidden" id="quizResults">
+            <div class="results-header text-center">
+              <div class="result-badge-circle" id="resultBadgeIcon">
+                <i class="fa-solid fa-trophy"></i>
+              </div>
+              <h3 class="result-title" id="resultTitle">Quiz Completed!</h3>
+              <p class="result-score-line">
+                You scored <span class="highlight-score" id="finalScoreText">8 / 10</span> (<span id="scorePercent">80%</span>)
+              </p>
+              <div class="result-evaluation-card" id="resultEvaluation">
+                <h4 id="evaluationHeading">Scam Shield Guardian</h4>
+                <p id="evaluationMessage">Outstanding awareness! You possess strong knowledge of modern cyber frauds.</p>
+              </div>
+            </div>
+
+            <div class="result-actions">
+              <button class="btn btn-secondary" id="btnRetakeQuiz">
+                <i class="fa-solid fa-rotate-right"></i> Retake Quiz
+              </button>
+              <button class="btn btn-outline-cyan" id="btnReviewAnswers">
+                <i class="fa-solid fa-list-check"></i> Review All Answers
+              </button>
+              <a href="#tips" class="btn btn-primary">
+                <i class="fa-solid fa-shield-halved"></i> Learn Safety Tips
+              </a>
+            </div>
+
+            <!-- Review Accordion (Hidden Initially) -->
+            <div class="quiz-review-section hidden" id="quizReviewSection">
+              <h4><i class="fa-solid fa-clipboard-check"></i> Comprehensive Answer Review</h4>
+              <div class="review-list" id="reviewList">
+                <!-- Populated via JS -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 4. Safety Tips Section -->
+    <section class="section tips-section" id="tips">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-solid fa-shield-virus"></i> Proactive Defense</span>
+          <h2 class="section-title">Essential Online Safety Tips</h2>
+          <p class="section-description">
+            Adopt these 6 golden digital hygiene practices. Practicing them consistently eliminates over 90% of online fraud risks.
+          </p>
+        </div>
+
+        <div class="tips-grid">
+          <!-- Tip 1 -->
+          <div class="tip-card">
+            <div class="tip-icon-header">
+              <div class="tip-icon text-cyan">
+                <i class="fa-solid fa-key"></i>
+              </div>
+              <span class="tip-number">01</span>
+            </div>
+            <h3 class="tip-title">Never Share OTPs or Passwords</h3>
+            <p class="tip-desc">
+              Your One-Time Password (OTP) and ATM/UPI PIN are final approval keys. No legitimate bank, police officer, or company representative will ever ask for them.
+            </p>
+            <div class="tip-checklist">
+              <span class="badge-do"><i class="fa-solid fa-check"></i> Treat OTP as confidential as your cash wallet</span>
+              <span class="badge-dont"><i class="fa-solid fa-xmark"></i> Never read out OTP to callers claiming KYC updates</span>
+            </div>
+          </div>
+
+          <!-- Tip 2 -->
+          <div class="tip-card">
+            <div class="tip-icon-header">
+              <div class="tip-icon text-amber">
+                <i class="fa-solid fa-link-slash"></i>
+              </div>
+              <span class="tip-number">02</span>
+            </div>
+            <h3 class="tip-title">Avoid Suspicious Links</h3>
+            <p class="tip-desc">
+              Phishing messages often arrive via SMS or WhatsApp with short links (bit.ly, is.gd) or fake domains resembling banks or electricity boards.
+            </p>
+            <div class="tip-checklist">
+              <span class="badge-do"><i class="fa-solid fa-check"></i> Type official portal web addresses directly</span>
+              <span class="badge-dont"><i class="fa-solid fa-xmark"></i> Never download APK files sent via WhatsApp or Telegram</span>
+            </div>
+          </div>
+
+          <!-- Tip 3 -->
+          <div class="tip-card">
+            <div class="tip-icon-header">
+              <div class="tip-icon text-red">
+                <i class="fa-solid fa-qrcode"></i>
+              </div>
+              <span class="tip-number">03</span>
+            </div>
+            <h3 class="tip-title">Verify All Payment Requests</h3>
+            <p class="tip-desc">
+              Scanning a QR code or entering your UPI PIN <strong>ALWAYS transfers money away</strong> from your account. Receiving money never requires a PIN.
+            </p>
+            <div class="tip-checklist">
+              <span class="badge-do"><i class="fa-solid fa-check"></i> Double-check receiver name before tapping confirm</span>
+              <span class="badge-dont"><i class="fa-solid fa-xmark"></i> Never accept UPI "Collect Requests" from strangers</span>
+            </div>
+          </div>
+
+          <!-- Tip 4 -->
+          <div class="tip-card">
+            <div class="tip-icon-header">
+              <div class="tip-icon text-green">
+                <i class="fa-solid fa-fingerprint"></i>
+              </div>
+              <span class="tip-number">04</span>
+            </div>
+            <h3 class="tip-title">Use Strong & Unique Passwords</h3>
+            <p class="tip-desc">
+              Using your birth year or `Password@123` across all websites makes account takeover trivial once any single service suffers a breach.
+            </p>
+            <div class="tip-checklist">
+              <span class="badge-do"><i class="fa-solid fa-check"></i> Use 12+ character passphrases with symbols</span>
+              <span class="badge-dont"><i class="fa-solid fa-xmark"></i> Never reuse your netbanking password for social media</span>
+            </div>
+          </div>
+
+          <!-- Tip 5 -->
+          <div class="tip-card">
+            <div class="tip-icon-header">
+              <div class="tip-icon text-purple">
+                <i class="fa-solid fa-shield-halved"></i>
+              </div>
+              <span class="tip-number">05</span>
+            </div>
+            <h3 class="tip-title">Enable Two-Factor Auth (2FA)</h3>
+            <p class="tip-desc">
+              Activate 2FA across Google, Apple, WhatsApp, and financial portals. Prefer authenticator apps (Google Authenticator, Bitwarden) over SMS.
+            </p>
+            <div class="tip-checklist">
+              <span class="badge-do"><i class="fa-solid fa-check"></i> Turn on WhatsApp 2-Step Verification PIN immediately</span>
+              <span class="badge-dont"><i class="fa-solid fa-xmark"></i> Don't approve push-authenticator prompts you didn't trigger</span>
+            </div>
+          </div>
+
+          <!-- Tip 6 -->
+          <div class="tip-card">
+            <div class="tip-icon-header">
+              <div class="tip-icon text-gold">
+                <i class="fa-solid fa-globe"></i>
+              </div>
+              <span class="tip-number">06</span>
+            </div>
+            <h3 class="tip-title">Check URLs Before Making Payments</h3>
+            <p class="tip-desc">
+              Examine the domain suffix carefully. Fraudsters create lookalikes such as `sbi-kyc-banking.online` or `amazon-clearance-deal.shop`.
+            </p>
+            <div class="tip-checklist">
+              <span class="badge-do"><i class="fa-solid fa-check"></i> Confirm HTTPS padlock and exact domain spelling</span>
+              <span class="badge-dont"><i class="fa-solid fa-xmark"></i> Never input card details on unverified checkout portals</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Safety Checklist -->
+        <div class="safety-checklist-widget">
+          <div class="checklist-header">
+            <div>
+              <h3><i class="fa-solid fa-clipboard-check text-cyan"></i> Personal Cyber Hygiene Checklist</h3>
+              <p>Tick the security steps you have implemented to calculate your device safety status:</p>
+            </div>
+            <div class="hygiene-meter">
+              <div class="hygiene-score-display"><span id="hygieneScore">0</span> / 6 Checked</div>
+              <div class="hygiene-bar-track">
+                <div class="hygiene-bar-fill" id="hygieneBarFill" style="width: 0%;"></div>
+              </div>
+            </div>
+          </div>
+          <div class="checklist-items-grid" id="checklistContainer">
+            <label class="check-item">
+              <input type="checkbox" class="hygiene-check" data-id="1">
+              <span class="checkbox-custom"></span>
+              <span class="check-text">I have enabled Two-Step Verification PIN on WhatsApp</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="hygiene-check" data-id="2">
+              <span class="checkbox-custom"></span>
+              <span class="check-text">I never click links in unexpected SMS regarding bank KYC or electricity cuts</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="hygiene-check" data-id="3">
+              <span class="checkbox-custom"></span>
+              <span class="check-text">I know that UPI PIN is entered ONLY to send money, never to receive it</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="hygiene-check" data-id="4">
+              <span class="checkbox-custom"></span>
+              <span class="check-text">I do not install remote desktop apps (AnyDesk, TeamViewer) at strangers' requests</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="hygiene-check" data-id="5">
+              <span class="checkbox-custom"></span>
+              <span class="check-text">I use unique passwords for my banking and email accounts</span>
+            </label>
+            <label class="check-item">
+              <input type="checkbox" class="hygiene-check" data-id="6">
+              <span class="checkbox-custom"></span>
+              <span class="check-text">I have saved 1930 Helpline and cybercrime.gov.in in my emergency contacts</span>
+            </label>
+          </div>
+          <div class="hygiene-status-banner" id="hygieneStatus">
+            <i class="fa-solid fa-circle-info"></i> Tick the boxes above to evaluate your digital defense readiness.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5. Report a Scam Section -->
+    <section class="section report-section" id="report">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle"><i class="fa-solid fa-bullhorn"></i> Incident Community Log</span>
+          <h2 class="section-title">Report an Encountered Scam</h2>
+          <p class="section-description">
+            Share details of suspicious messages, numbers, or fraudulent links you encountered. Your report helps others recognize ongoing scams.
+          </p>
+        </div>
+
+        <div class="report-wrapper">
+          <div class="report-form-container">
+            <!-- Explicit Safety Warning -->
+            <div class="security-privacy-notice">
+              <div class="notice-icon"><i class="fa-solid fa-lock"></i></div>
+              <div class="notice-text">
+                <strong>Privacy & Safety Notice:</strong>
+                <span>ScamShield NEVER asks for confidential banking data. <strong>Do NOT enter</strong> your bank account number, debit card CVV, ATM PIN, or OTP in this form.</span>
+              </div>
+            </div>
+
+            <form class="report-form" id="scamReportForm" novalidate>
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="scamType" class="form-label">
+                    Scam Type <span class="required">*</span>
+                  </label>
+                  <select id="scamType" name="scamType" class="form-select" required>
+                    <option value="" disabled selected>Select category of scam...</option>
+                    <option value="UPI Payment Scam">UPI Payment / QR Code Scam</option>
+                    <option value="Phishing Email or SMS">Phishing Email or SMS (Smishing)</option>
+                    <option value="OTP / SIM Swap Fraud">OTP Fraud / SIM Swap</option>
+                    <option value="Fake Job / Task Scam">Fake Job Offer / Task Scam</option>
+                    <option value="Online Shopping Scam">Online Shopping / Delivery Scam</option>
+                    <option value="Social Media Impersonation">Social Media / Friend Impersonation</option>
+                    <option value="Lottery / KBC Scam">Lottery / KBC Lucky Draw Scam</option>
+                    <option value="Fake Investment / Stock Tips">Fake Investment / Stock Tips</option>
+                    <option value="Electricity Bill Threat">Electricity / Utility Bill Disconnection</option>
+                    <option value="Other Online Scam">Other Cyber Scam</option>
+                  </select>
+                  <span class="form-error-msg" id="scamTypeError">Please choose a scam category.</span>
+                </div>
+
+                <div class="form-group col-half">
+                  <label for="incidentPlatform" class="form-label">
+                    Platform / Channel <span class="required">*</span>
+                  </label>
+                  <select id="incidentPlatform" name="incidentPlatform" class="form-select" required>
+                    <option value="" disabled selected>Where did you encounter it?</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                    <option value="SMS Text">SMS Text Message</option>
+                    <option value="Phone Call">Direct Phone Call</option>
+                    <option value="Telegram">Telegram</option>
+                    <option value="Instagram / Facebook">Instagram / Facebook</option>
+                    <option value="Email">Email</option>
+                    <option value="OLX / Quikr">OLX / Classifieds</option>
+                    <option value="Fake Website">Fake Website / Search Ad</option>
+                  </select>
+                  <span class="form-error-msg" id="incidentPlatformError">Please specify the platform.</span>
+                </div>
+              </div>
+
+              <div class="form-row">
+                <div class="form-group col-half">
+                  <label for="suspectIdentifier" class="form-label">
+                    Suspect Info <span class="label-hint">(Phone No, Fake Link, or UPI ID)</span>
+                  </label>
+                  <div class="input-with-icon">
+                    <i class="fa-solid fa-at"></i>
+                    <input type="text" id="suspectIdentifier" name="suspectIdentifier" class="form-input" placeholder="e.g. +91 9876543210 or scammer@upi or fake-link.com">
+                  </div>
+                </div>
+
+                <div class="form-group col-half">
+                  <label for="incidentDate" class="form-label">
+                    Approximate Date of Incident <span class="required">*</span>
+                  </label>
+                  <input type="date" id="incidentDate" name="incidentDate" class="form-input" required>
+                  <span class="form-error-msg" id="incidentDateError">Please enter the date.</span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label for="scamDescription" class="form-label">
+                  Incident Description <span class="required">*</span>
+                  <span class="label-hint">(Explain what the scammer claimed and how they approached you)</span>
+                </label>
+                <textarea id="scamDescription" name="scamDescription" class="form-textarea" rows="4" placeholder="Describe the incident: What did the caller/message claim? Did they demand payment or OTP? (Min 20 characters)" required minlength="20"></textarea>
+                <div class="textarea-counter">
+                  <span class="form-error-msg" id="scamDescriptionError">Please provide at least 20 characters describing the incident.</span>
+                  <span class="char-count" id="charCount">0 / 500 characters</span>
+                </div>
+              </div>
+
+              <!-- Optional Reporter Details -->
+              <div class="optional-reporter-section">
+                <div class="optional-toggle-header">
+                  <span class="optional-badge">Optional</span>
+                  <span class="optional-title">Contact Details (for verification only)</span>
+                </div>
+                <div class="form-row">
+                  <div class="form-group col-half">
+                    <label for="reporterName" class="form-label">Your Name (Optional)</label>
+                    <div class="input-with-icon">
+                      <i class="fa-solid fa-user"></i>
+                      <input type="text" id="reporterName" name="reporterName" class="form-input" placeholder="Anonymous or Full Name">
+                    </div>
+                  </div>
+                  <div class="form-group col-half">
+                    <label for="reporterContact" class="form-label">Email or Phone (Optional)</label>
+                    <div class="input-with-icon">
+                      <i class="fa-solid fa-envelope"></i>
+                      <input type="text" id="reporterContact" name="reporterContact" class="form-input" placeholder="name@example.com or Phone">
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <button type="submit" class="btn btn-primary btn-block btn-lg" id="btnSubmitReport">
+                <i class="fa-solid fa-paper-plane"></i> Submit Incident Awareness Report
+              </button>
+            </form>
+          </div>
+
+          <!-- Live Community Incidents Feed / Tips Sidebar -->
+          <div class="report-sidebar">
+            <div class="sidebar-card">
+              <div class="sidebar-header">
+                <span class="pulse-indicator"></span>
+                <h4><i class="fa-solid fa-bullhorn text-cyan"></i> Recent Awareness Reports</h4>
+              </div>
+              <p class="sidebar-subtitle">Anonymized submissions shared by community members:</p>
+
+              <div class="community-reports-feed" id="communityReportsFeed">
+                <!-- Dynamically populated from JS + LocalStorage -->
+              </div>
+            </div>
+
+            <div class="sidebar-official-help-card">
+              <div class="card-icon text-red"><i class="fa-solid fa-handcuffs"></i></div>
+              <h4>Lost Money in a Real Scam?</h4>
+              <p>Community reports on ScamShield are for education only. To freeze bank transactions and lodge an official FIR, immediately report to the authorities:</p>
+              <a href="tel:1930" class="btn btn-danger-solid btn-block">
+                <i class="fa-solid fa-phone"></i> Dial 1930 Now
+              </a>
+              <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" class="btn btn-outline-light btn-block btn-sm">
+                Visit cybercrime.gov.in <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Report Confirmation Modal -->
+    <div class="modal-overlay hidden" id="reportSuccessModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+      <div class="modal-dialog">
+        <div class="modal-header">
+          <div class="modal-success-icon"><i class="fa-solid fa-circle-check"></i></div>
+          <h3 id="modalTitle">Report Successfully Logged!</h3>
+          <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">&times;</button>
+        </div>
+        <div class="modal-body">
+          <p>Thank you for contributing to community cyber awareness. Your report helps alert other citizens against emerging fraud patterns.</p>
+          
+          <div class="modal-reference-box">
+            <span class="ref-label">Awareness Reference ID:</span>
+            <strong class="ref-code" id="modalRefCode">#SS-2026-9812</strong>
+          </div>
+
+          <div class="modal-steps-alert">
+            <h4><i class="fa-solid fa-shield-halved text-cyan"></i> Crucial Steps If You Lost Money:</h4>
+            <ol>
+              <li>Call the <strong>1930 Cybercrime Helpline</strong> within the Golden Hour.</li>
+              <li>Immediately lock/block your debit cards and UPI via your bank's official app.</li>
+              <li>Lodge a complaint on the official National Portal: <strong>cybercrime.gov.in</strong></li>
+            </ol>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" class="btn btn-danger-solid">
+            <i class="fa-solid fa-landmark"></i> File on cybercrime.gov.in
+          </a>
+          <button class="btn btn-secondary" id="modalDismissBtn">Done</button>
+        </div>
+      </div>
+    </div>
+
+    <!-- 6. Emergency Help Section (Indian Cybercrime Information) -->
+    <section class="section emergency-section" id="emergency">
+      <div class="container">
+        <div class="emergency-main-card">
+          <div class="emergency-badge-glow">
+            <i class="fa-solid fa-shield-virus"></i> OFFICIAL INDIAN CYBERCRIME HELPLINE
+          </div>
+
+          <h2 class="emergency-hero-title">
+            Fallen Victim to Financial Cyber Fraud?<br>
+            <span class="text-gradient-red">Act in the "Golden Hour"</span>
+          </h2>
+
+          <p class="emergency-hero-desc">
+            The first <strong>2 to 3 hours</strong> following an unauthorized transaction are vital. When you report immediately, the Indian Cyber Crime Coordination Centre (I4C) coordinates with banks to freeze the defrauded money before scammers can withdraw or cash out via ATMs.
+          </p>
+
+          <!-- Core Emergency Pillars -->
+          <div class="emergency-pillars-grid">
+            <!-- Pillar 1: 1930 Helpline -->
+            <div class="emergency-pillar-card primary-helpline">
+              <div class="pillar-icon-box">
+                <i class="fa-solid fa-phone-volume"></i>
+              </div>
+              <span class="pillar-tag">Toll-Free &bull; 24x7 Support</span>
+              <h3>National Cybercrime Helpline</h3>
+              <div class="hotline-number-display">1930</div>
+              <p class="pillar-note">
+                (Formerly known as 155260). Operational across all Indian States & Union Territories.
+              </p>
+              <a href="tel:1930" class="btn btn-emergency-cta">
+                <i class="fa-solid fa-phone"></i> Tap to Call 1930 Now
+              </a>
+            </div>
+
+            <!-- Pillar 2: cybercrime.gov.in -->
+            <div class="emergency-pillar-card official-portal">
+              <div class="pillar-icon-box">
+                <i class="fa-solid fa-landmark"></i>
+              </div>
+              <span class="pillar-tag">Government of India &bull; MHA</span>
+              <h3>National Cyber Crime Portal</h3>
+              <div class="portal-url-display">cybercrime.gov.in</div>
+              <p class="pillar-note">
+                Official platform of Ministry of Home Affairs to file formal e-FIR complaints for financial fraud & cyber harms.
+              </p>
+              <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" class="btn btn-portal-cta">
+                <i class="fa-solid fa-arrow-up-right-from-square"></i> Open cybercrime.gov.in
+              </a>
+            </div>
+          </div>
+
+          <!-- Step-by-Step Incident Response Protocol -->
+          <div class="incident-response-roadmap">
+            <h3 class="roadmap-heading"><i class="fa-solid fa-list-ol text-cyan"></i> 4-Step Rapid Response Protocol</h3>
+            <div class="roadmap-steps">
+              <div class="step-card">
+                <div class="step-num">1</div>
+                <h4>Block Cards & Accounts</h4>
+                <p>Immediately open your bank app or call customer support to freeze the affected bank account, UPI ID, and cards.</p>
+              </div>
+
+              <div class="step-card">
+                <div class="step-num">2</div>
+                <h4>Call 1930 Immediately</h4>
+                <p>Provide the operator with the transaction ID, account number, debit amount, and scammer details to trigger bank freeze.</p>
+              </div>
+
+              <div class="step-card">
+                <div class="step-num">3</div>
+                <h4>Preserve Digital Evidence</h4>
+                <p>Take screenshots of SMS alerts, UPI transaction history, WhatsApp chats, call logs, and fake website URLs.</p>
+              </div>
+
+              <div class="step-card">
+                <div class="step-num">4</div>
+                <h4>Register Formal FIR</h4>
+                <p>Visit cybercrime.gov.in to file an official complaint. Note down the acknowledgement number for court & bank recovery.</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- Additional Important Helplines -->
+          <div class="additional-helplines">
+            <div class="helpline-chip">
+              <i class="fa-solid fa-building-columns"></i>
+              <span>RBI CMS Portal (Banking Grievances): <strong>cms.rbi.org.in</strong></span>
+            </div>
+            <div class="helpline-chip">
+              <i class="fa-solid fa-mobile-screen"></i>
+              <span>Sanchar Saathi (Block Lost/Stolen Mobile): <strong>sancharsaathi.gov.in</strong></span>
+            </div>
+            <div class="helpline-chip">
+              <i class="fa-solid fa-shield"></i>
+              <span>Emergency Services: <strong>112</strong></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div class="footer-column brand-col">
+        <div class="footer-logo">
+          <i class="fa-solid fa-shield-halved text-cyan"></i>
+          <span class="footer-brand-name">Scam<span class="text-cyan">Shield</span></span>
+        </div>
+        <p class="footer-tagline">
+          Online Scam Awareness Platform dedicated to educating students, seniors, and citizens to browse, transact, and communicate safely online.
+        </p>
+        <div class="footer-social-links">
+          <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" aria-label="Cybercrime Official" title="Official Cybercrime Portal"><i class="fa-solid fa-globe"></i></a>
+          <a href="tel:1930" aria-label="1930 Helpline" title="Call 1930"><i class="fa-solid fa-phone"></i></a>
+          <a href="#scams" aria-label="Scam Types" title="Scam Types"><i class="fa-solid fa-shield-virus"></i></a>
+          <a href="#quiz" aria-label="Awareness Quiz" title="Take Quiz"><i class="fa-solid fa-graduation-cap"></i></a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-heading">Platform Navigation</h4>
+        <ul class="footer-links">
+          <li><a href="#home"><i class="fa-solid fa-angle-right"></i> Home & Statistics</a></li>
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> 8 Common Scam Types</a></li>
+          <li><a href="#quiz"><i class="fa-solid fa-angle-right"></i> Scam Awareness Quiz</a></li>
+          <li><a href="#tips"><i class="fa-solid fa-angle-right"></i> Cyber Safety Tips</a></li>
+          <li><a href="#report"><i class="fa-solid fa-angle-right"></i> Report an Incident</a></li>
+          <li><a href="#emergency"><i class="fa-solid fa-angle-right"></i> Emergency 1930 Help</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column">
+        <h4 class="footer-heading">Scam Categories</h4>
+        <ul class="footer-links">
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> UPI Payment & QR Scams</a></li>
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> Phishing Emails & SMS</a></li>
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> OTP & SIM Swap Breaches</a></li>
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> Fake Job & Task Scams</a></li>
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> Lottery & KBC Fraud</a></li>
+          <li><a href="#scams"><i class="fa-solid fa-angle-right"></i> Fake Stock Investment</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-column emergency-col">
+        <h4 class="footer-heading">Emergency Cyber Numbers</h4>
+        <div class="footer-emergency-box">
+          <div class="footer-emergency-item">
+            <span class="label">National Cybercrime Helpline</span>
+            <a href="tel:1930" class="number"><i class="fa-solid fa-phone"></i> 1930 (24x7)</a>
+          </div>
+          <div class="footer-emergency-item">
+            <span class="label">MHA Cybercrime Portal</span>
+            <a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer" class="link">
+              <i class="fa-solid fa-arrow-up-right-from-square"></i> cybercrime.gov.in
+            </a>
+          </div>
+          <div class="footer-emergency-item">
+            <span class="label">National Emergency</span>
+            <a href="tel:112" class="number"><i class="fa-solid fa-phone"></i> 112</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Legal / Academic Disclaimer -->
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p class="disclaimer-text">
+          <i class="fa-solid fa-triangle-exclamation text-amber"></i>
+          <strong>Educational Disclaimer:</strong> ScamShield is an educational, awareness-driven platform. We do not store sensitive financial details. In case of real financial loss or cyber extortion, immediately contact the National Cybercrime Helpline <strong>1930</strong> or file an official report at <strong><a href="https://cybercrime.gov.in" target="_blank" rel="noopener noreferrer">cybercrime.gov.in</a></strong>.
+        </p>
+        <div class="copyright-text">
+          &copy; <span id="currentYear">2026</span> ScamShield &bull; Stay Alert. Stay Safe. Stop Online Scams.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scroll to top button -->
+  <button class="scroll-top-btn" id="scrollTopBtn" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Main JavaScript File -->
+  <script src="script.js"></script>
+</body>
+</html>
